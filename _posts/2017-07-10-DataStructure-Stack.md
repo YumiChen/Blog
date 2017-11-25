@@ -6,7 +6,7 @@ categories: dataStructure
 tags: [Javascript,data structure]
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gj5qBheGOEo" frameborder="0" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/Gj5qBheGOEo" frameborder="0" allowfullscreen></iframe>
   
 [程式碼來源/ 教學程式碼](https://codepen.io/beaucarnes/pen/yMBGbR?editors=0012)
   
@@ -89,10 +89,6 @@ var Stack = function() {
         var result = this.storage[this.count];
         delete this.storage[this.count];
         return result;
-    }
-    
-    this.size = function() {
-        return this.count;
     }
 ...
 ```

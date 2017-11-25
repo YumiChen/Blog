@@ -1,6 +1,15 @@
 /*
   Base
 */
+*::selection{
+  background-color: #18cff7;
+  color: white;
+}
+
+*::-moz-selection{
+  background-color: #18cff7;
+  color: white;
+}
 
 body {
   font-family: "PT Serif",微軟正黑體, Georgia, "Times New Roman", serif;
@@ -38,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #18cff7;
   border-bottom: none;
 }
 
@@ -135,6 +144,10 @@ blockquote p {
 /*
   Post
 */
+
+iframe{
+  width: 100%;
+}
 
 .post-container {
   margin-bottom: 4rem;
@@ -339,7 +352,7 @@ pre {
 }
 
 .fa-envelope:hover {
-	color: #f39c12;
+	color: #18cff7;
 }
 
 .fa-twitter {
@@ -352,7 +365,7 @@ pre {
 }
 
 .fa-twitter:hover {
-	color: #00aced;
+	color: #18cff7;
 }
 
 .fa-instagram {
